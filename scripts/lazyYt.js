@@ -28,7 +28,7 @@
       document.querySelectorAll('.lazy-yt').forEach(function(el){
         var vid = el.dataset.videoId;
         el.style.cssText =
-          'position:relative;padding-bottom:56.25%;height:0;overflow:hidden;'+
+          'position:relative;padding-bottom:0;height:0;overflow:hidden;'+
           'background:url(https://img.youtube.com/vi/' + vid + '/hqdefault.jpg) center/cover no-repeat;'+
           'cursor:pointer;';
         var btn = document.createElement('div');
